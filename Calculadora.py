@@ -26,8 +26,8 @@ class Seleccion_Operacion:
             print("El resultado es", Calculadora.dividir(a, b))
         else:
             print("Operacion no valida")
-    
 Seleccion_Operacion.operacion()
+
 
 
 
