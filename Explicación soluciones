@@ -7,7 +7,7 @@ cada función según la opción escogida y mostrar el resultado.
 coinciden, deja de serlo. Por eso hice un ciclo que compara cada carácter con su opuesto y marqué la palabra como no palíndroma
 si encontraba una diferencia.
 
-3. Pensé primero en lo que define a un número primo: que no se puede dividir entre ningún númeroaparte de 1 y de sí mismo.
+3. Pensé en las condiciones para que un número sea primo: que no se puede dividir entre ningún número aparte de 1 y de sí mismo.
 Con esa idea, decidí que la función debía probar la divisibilidad de cada número con los valores anteriores, así fui descartando
 los que tenían divisores y guardando los que no, formando al final la lista de números primos.
 
@@ -15,6 +15,6 @@ los que tenían divisores y guardando los que no, formando al final la lista de 
 Por eso pensé en empezar con los dos primeros como referencia y luego ir avanzando posición por posición, actualizando
 el valor más grande cuando encontraba una suma mayor. Así llegué a la idea de recorrer toda la lista y quedarme con el mayor.
 
-5. Aquí pensé en qué hace que dos palabras sean “iguales” en cuanto a sus caracteres, incluso si están en distinto orden.
+5. Aquí pensé en como comprobar que 2 palabras tienen los mismos caracteres, incluso si están en distinto orden.
 Me di cuenta de que si ordenaba alfabéticamente las letras de cada palabra, todas las que fueran anagramas se transformarían 
 en el mismo string. Decidí agrupar las palabras según esa versión ordenada y luego devolver solo los gruposque tenían más de una palabra.
