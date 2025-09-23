@@ -1,6 +1,3 @@
-# Reto-1
-Ejercicios propuestos en clase para la practica de conceptos fundamentales de python y proceso de pensamiento para las soluciones
-
 1. Ya había trabajado antes en un problema similar, así que tenía la idea clara de que lo mejor era separar cada operación 
 (suma, resta, multiplicación y división) en funciones distintas dentro de una clase calculadora. Después solo necesitaba pedirle al
 usuario dos números y dejar que eligiera la operación a realizar mediante un menú. Con esa base, la solución fue simplemente aplicar
