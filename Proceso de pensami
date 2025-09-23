@@ -1,6 +1,0 @@
-# Reto-1
-Ejercicios propuestos en clase para la practica de conceptos fundamentales de python y proceso de pensamiento para las soluciones
-
-1. Funcion de operaciones basicas matematicas
-Debo admitir que esto fue un ejercicio el cual he trabajado previamente asi que ya tenia un proceso a seguir en mi cabeza, primero cree una clase en la cual defini cada una de las operaciones usando los operadores basicos de python, despues pense en crear un interfaz simple pero directa en la cual el usuario pudiera escoger cual de los procesos desea utilizar, usando un if y asigandole un valor int a cada una de las operaciones, se crea una interfaz de uso simple escogiendo entre 1 y 4 las dadas operaciones. al correrlo, se le pide al usuario dar los 2 valores que quiere operar y se le muestran sus opciones de operacion. 
-
