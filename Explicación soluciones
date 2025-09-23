@@ -11,7 +11,7 @@ si encontraba una diferencia.
 Con esa idea, decidí que la función debía probar la divisibilidad de cada número con los valores anteriores, así fui descartando
 los que tenían divisores y guardando los que no, formando al final la lista de números primos.
 
-4. Pense que, para encontrar la mayor suma de dos números consecutivos, debía comparar cada par posible dentro de la lista. 
+4. Para encontrar la mayor suma de dos números consecutivos, debía comparar cada par posible dentro de la lista. 
 Por eso pensé en empezar con los dos primeros como referencia y luego ir avanzando posición por posición, actualizando
 el valor más grande cuando encontraba una suma mayor. Así llegué a la idea de recorrer toda la lista y quedarme con el mayor.
 
