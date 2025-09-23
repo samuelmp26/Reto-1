@@ -1,6 +1,6 @@
 if __name__ == '__main__':
     print("Ingrese una palabra:")
-    palabra = input()
+    palabra = input().lower()
 
 class Palabra:
     def es_palindromo(palabra):
@@ -24,3 +24,4 @@ class Seleccion_Palindromo:
             print("La palabra no es un palindromo")
 
 Seleccion_Palindromo.mostrar()
+
