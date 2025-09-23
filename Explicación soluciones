@@ -1,12 +1,23 @@
 # Reto-1
 Ejercicios propuestos en clase para la practica de conceptos fundamentales de python y proceso de pensamiento para las soluciones
 
-1. Funcion de operaciones basicas matematicas
-Debo admitir que esto fue un ejercicio el cual he trabajado previamente asi que ya tenia un proceso a seguir en mi cabeza, 
-primero cree una clase en la cual defini cada una de las operaciones usando los operadores basicos de python, despues pense 
-en crear un interfaz simple pero directa en la cual el usuario pudiera escoger cual de los procesos desea utilizar, 
-usando un if y asigandole un valor int a cada una de las operaciones, se crea una interfaz de uso simple escogiendo 
-entre 1 y 4 las dadas operaciones. al correrlo, se le pide al usuario dar los 2 valores que quiere operar y se le muestran 
-sus opciones de operacion. 
+1. Ya había trabajado antes en un problema similar, así que tenía la idea clara de que lo mejor era separar cada operación 
+(suma, resta, multiplicación y división) en funciones distintas dentro de una clase calculadora. Después solo necesitaba pedirle al
+usuario dos números y dejar que eligiera la operación a realizar mediante un menú. Con esa base, la solución fue simplemente aplicar
+cada función según la opción escogida y mostrar el resultado.
 
-2. Funcion para comprobar si una palabra es un palindromo
+2. Pensé en que un palíndromo se reconoce comparando las letras desde el inicio y el final hacia el centro. Si en algún momento no
+coinciden, deja de serlo. Por eso hice un ciclo que compara cada carácter con su opuesto y marqué la palabra como no palíndroma
+si encontraba una diferencia.
+
+3. Para resolver este ejercicio pensé primero en lo que define a un número primo: que no se puede dividir entre ningún número
+aparte de 1 y de sí mismo. Con esa idea, decidí que la función debía probar la divisibilidad de cada número con los valores anteriores, 
+así fui descartando los que tenían divisores y guardando los que no, formando al final la lista de números primos.
+
+4. Pense que, para encontrar la mayor suma de dos números consecutivos, debía comparar cada par posible dentro de la lista. 
+Por eso pensé en empezar con los dos primeros como referencia y luego ir avanzando posición por posición, actualizando
+el valor más grande cuando encontraba una suma mayor. Así llegué a la idea de recorrer toda la lista y quedarme con el mayor.
+
+5. Aquí pensé en qué hace que dos palabras sean “iguales” en cuanto a sus caracteres, incluso si están en distinto orden.
+Me di cuenta de que si ordenaba alfabéticamente las letras de cada palabra, todas las que fueran anagramas se transformarían 
+en el mismo string. Decidí agrupar las palabras según esa versión ordenada y luego devolver solo los gruposque tenían más de una palabra.
