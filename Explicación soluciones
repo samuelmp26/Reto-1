@@ -17,4 +17,4 @@ el valor más grande cuando encontraba una suma mayor. Así llegué a la idea de
 
 5. Aquí pensé en como comprobar que 2 palabras tienen los mismos caracteres, incluso si están en distinto orden.
 Me di cuenta de que si ordenaba alfabéticamente las letras de cada palabra, todas las que fueran anagramas se transformarían 
-en el mismo string. Decidí agrupar las palabras según esa versión ordenada y luego devolver solo los gruposque tenían más de una palabra.
+en el mismo string. Decidí agrupar las palabras según esa versión ordenada y luego devolver solo los grupos que tenían más de una palabra.
